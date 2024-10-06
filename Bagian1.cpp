@@ -18,11 +18,10 @@ string formatHarga(int harga) {
 
     return hasil;
 }
-int main()
-{
-    int pilihan, totalMakanan = 0, totalMinuman = 0;
 
-    do
+int main()
+{int pilihan, totalMakanan = 0, totalMinuman = 0;
+ do
     {
         tampilkanMenu();
         cout<<"Masukkan pilihan Anda (1-10, atau 0 untuk keluar/Total Harga): ";
